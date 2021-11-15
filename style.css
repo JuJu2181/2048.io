@@ -98,3 +98,25 @@ body{
     font-family: cursive;
     text-align: center;
 }
+
+/*Some responsiveness for mobile devices*/
+@media (max-width: 420px){
+    .grid{
+        width: 300px;
+        height: 300px;
+    }
+    .grid div{
+        width: 60px;
+        height: 60px;
+        font-size: 1rem;
+    }
+    .score{
+        width: 150px;
+        height: 30px;
+        font-size: 1rem;
+    }
+    .start-button{
+        width: 150px;
+        font-size: 1rem;
+    }
+}
