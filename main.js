@@ -286,7 +286,7 @@ const upKey = () => {
 const checkForWin = () => {
     for (let i = 0; i < squares.length; i++) {
         if (squares[i].innerHTML == 2048) {
-            resultDisplay.innerHTML = `You Won! You Scored: ${score}`;
+            resultDisplay.innerHTML = `Congrats You Won! You Scored: ${score}`;
             document.removeEventListener('keyup', controlKeys);
             startButton.style.display = "flex";
         }
