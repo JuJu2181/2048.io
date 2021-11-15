@@ -1,2 +1,3 @@
-# 2048.io
-2048 game written in Vanilla JS
+# 2048 GAME
+- 2048 game written in Vanilla JS
+- UI not that good looking so feel free to contribute
